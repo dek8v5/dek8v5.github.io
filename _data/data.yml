@@ -1,0 +1,213 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Dewi Endah Kharismawati
+  tagline: PhD Candidate
+  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: dek8v5@missouri.edu
+  phone: (573)397-8566
+  citizenship:
+  website: https://dek8v5.github.io
+  linkedin: dewi-endah-kharismawati
+  github: dek8v5
+  twitter: '@dek8v5'
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+
+career-profile:
+  title: Career Profile
+  summary: |
+   I am a Ph.D. candidate in computer science with with expertise in developing AI-driven solutions for digital phenotyping and agricultural applications. Proven experience creating UAV-based systems and advanced algorithms for 3D reconstruction, image registration, object detection, and segmentation.
+education:
+  title: Education
+  info:
+  - degree: PhD in Computer Science
+    university: University Missouri
+    time: 2020 - present
+    details: |
+      Anticipated Graduation in Spring 2025 -
+      GPA: 3.82
+  - degree: Bachelor of Science in Computer Science, Minor in Mathematics
+    university: University of Missouri
+    time: 2015 - 2017
+    details: |
+      GPA: 3.69 
+
+
+experiences:
+  title: Research Experiences
+  info:
+  - role: Graduate Research Assistant 
+    time: 2019 - Present
+    company: Dr. Toni Kazic, University of Missouri
+    details: |
+      Developed five innovative end-to-end pipelines leveraging deep learning and computer vision to analyze complex lesion and maize phenotypes. Specialized in autonomous systems, remote sensing, image registration, object detection, segmentation, and 3D reconstructions: 
+        - Developed MaiZaic, a robust pipeline for mosaicking freely flown aerial RGB video, contributing five novel features to the project: dynamic frame sampling, automated calibration, unsupervised homography estimation (CorNetv3), shot detection, and mini-mosaics to minimize error accumulation. Achieved 96.5% accuracy compared to ground truth, an 8.59% improvement over ASIFT.
+        - Built CorNet, an unsupervised deep homography estimation pipeline to mosaic aerial imagery without telemetry, utilizing VGG8 architecture with Python, TensorFlow, and OpenCV. CorNet achieved 10x faster processing with comparable accuracy to ASIFT.
+        - Created DeepMaizeCounter (DMC), an advanced stand-counting algorithm for seedling maize using YOLOv4, YOLOv7, and YOLOv9. Automated row and range detection, and created a seedling maize dataset categorized into three population classes. Achieved an r² of 0.906 on raw frames and 0.616 on fragmented mosaics.
+        - Developed PointillistMaize, generating 3D maize reconstructions from 360° aerial videos using Structure from Motion (SfM), Neural Radiance Fields (NeRF), and Gaussian Splatting. Comparative analysis demonstrated that NeRF produces 90.4% of points and computes 7.3 times faster than SfM, while Gaussian Splatting produces 8.1% of points and operates 3.0 times faster than SfM.
+        - Collaborated on the development of Video Mosaicking and Summarization (VMZ), a robust mosaicking of maize fields from aerial imagery, achieved over 95% SSIM across all test datasets through precise camera calibration in Python and MATLAB.
+
+      Led UAV-based data collection and curation for mosaicking, stand counting, and 3D reconstructions. Designed and executed various flight strategies, including manual and automated trajectories.
+      
+      Imaged leaf data collection using still cameras for lesion segmentation.
+    
+      Participated in agricultural activities, including planting, managing, pollinating, and harvesting corn during field seasons.
+
+        
+  - role: Student Researcher
+    time: January - December 2018
+    company: Dr. John Lory, University of Missouri
+    details: |
+      - Stitched high-resolution aerial imagery using Pix4D for precise mapping in the University of Missouri Strip Trial Program, followed by segmentation of corn and soil areas to extract green values using Excess Green (ExG) and Red-Green (RG) indices to assess nitrogen deficiency.
+      - Provided actionable recommendations for targeted nitrogen spray applications in deficient zones based on the analysis of green value indices.
+      - Conducted detailed statistical analysis of UAV imagery, including creating field layouts and performing spatial analysis using ArcMap to forecast preliminary harvest outcomes.
+      - Contributed to cover crop analysis by participating in data collection and ground-truthing efforts, ensuring the accuracy and enhancing the reliability of the UAV-based agricultural insights.
+
+
+
+
+teaching:
+  title: Teaching Experiences
+  info:
+  - role: Graduate Teaching Assistant 
+    time: 2018 - Present
+    company: Dr. Yunxin Zhao, University of Missouri
+    details: |
+      Conducted weekly office hours to provide individualized assistance and clarify course materials, managed attendance records, and supported the creation and administration of assignments, exams, and grading.
+      Class enrollment average = 70 students
+
+
+
+
+certifications:
+  title: Certifications
+  list:
+  - name: FAA Part 107 Remote Pilot Certificate
+    start: 2019
+    end: 2034
+    organization: The Federal Aviation Administration
+    credentialid: 4286839
+    details: |
+      A licensed drone pilot with more than 200 hours of flying experience.
+  
+projects:
+  title: Projects
+  assignments:
+  - title: MaiZaic
+    link: "https://github.com/dek8v5/MaiZaic"
+    tagline: "An advanced end-to-end mosaicking algorithm for UAV aerial video, designed to significantly enhance image stitching precision and quality. It introduces five key innovations to the field: dynamic sampling leveraging optical flow, automated lens and gimbal calibration, precise homography estimation using CornetV3, sophisticated shot detection through UAV movement analysis, and a mini-mosaicking technique to minimize error accumulation. With an impressive accuracy rate of 96.5% compared to ground truth, MaiZaic outperforms traditional ASIFT methods by 8.59%, setting a new benchmark in aerial video mosaicking."
+
+  - title: CorNet 
+    link: "https://github.com/dek8v5/CorNet"
+    tagline: "An unsupervised homography estimation technique utilizing a VGG8-like architecture, delivering a 10x speed improvement while maintaining quality comparable to conventional ASIFT feature descriptor."
+
+  - title: DeepMaizeCounter (DMC)
+    link: "https://github.com/dek8v5/DMC-DeepMaizeCounter"
+    tagline: "Developed two input modes to optimize seedling counting per row in nursery maize fields: mosaic mode, where images are segmented into patches for YOLOv9 detection and reassembled based on patch coordinates, and raw frames mode, where raw image frames are processed directly through YOLOv9, with frames and bounding boxes merged using homography matrices for precise counting. This approach achieved high accuracy, with an R² of 0.906 in raw mode and 0.616 in mosaic mode. Additionally, independently conducted UAV-based data collection and curation for seedling maize detection, focusing on classifying single, double, and triple plants to enhance detection reliability and overall model performance."
+
+  - title: PointillistMaize
+    link: "https://github.com/dek8v5/PointillistMaize"
+    tagline: "Generated 3D point clouds of maize from 2D orbital videos using Structure from Motion and Multiview Stereo (SfM & MVS), Neural Radiance Fields (NeRF), and Gaussian Splatting. Improved model accuracy by removing outliers with PointCleanNet, ensuring cleaner and more precise reconstructions. Achieved benchmark accuracies of 93.38% with SfM-MVS, 90.18% with NeRF, and 89.37% with Gaussian Splatting, demonstrating the effectiveness of these techniques for high-fidelity maize field modeling. Independently conducted UAV-based data collection, capturing diverse orbital trajectories and camera perspectives to obtain detailed imaging of individual maize plants in tiling and groups of plants in range. "
+
+  - title: Maize GxE Prediction 
+    link: "https://github.com/dek8v5/maize_gxe"
+    tagline: "Conducted data preprocessing using Random Forest for feature selection, categorical splits, and numerical scaling, while incorporating Hash String to encode genetic information. Developed an XGBoost regression model and integrated transformer-based models for structured data analysis, enhancing predictive capabilities. Achieved an average Pearson Correlation Coefficient (r) score of 0.156, demonstrating the model's ability to capture relationships within the dataset."
+
+  - title: Mitochondria Segmentation 
+    link: "#"
+    tagline: "Implemented Mask R-CNN for mitochondria segmentation on CA1 3D electron microscopy, enabling precise identification and delineation of mitochondrial structures. Achieved a Jaccard score of 0.68"
+
+  - title: Malaria detection 
+    link: "https://github.com/dek8v5/Malaria_detection_with_Faster-RCNN_and_YOLOv3"
+    tagline: "Developed a malaria detection and counting system using Faster R-CNN and YOLOv3, enabling efficient identification of malaria-infected cells. Achieved an F1 score of 67.3% with Faster R-CNN and 61.2% with YOLOv3."
+
+  - title: Forest Cover Estimation 
+    link: "https://github.com/dek8v5/clustering_forest_cover"
+    tagline: "Conducted a comparative analysis of clustering algorithms for forest cover estimation, evaluating hierarchical, spectral, k-means, Gaussian Mixture Model, and agglomerative clustering techniques. Spectral Clustering demonstrated the best performance, achieving a Normalized Mutual Information (NMI) score of 0.42 and an accuracy of 51.1%."
+
+  - title: Fuzzy Clustering 
+    link: "https://github.com/dek8v5/fuzzy_clustering"
+    tagline: "Implemented and compared clustering performance for image clustering using fuzzy c-means, fuzzy local information c-means, probabilistic local information c-means, and sequential possibilistic local information c-means."
+
+  - title: Nuclei Segmentation 
+    link: "#"
+    tagline: "Implemented the Mask R-CNN algorithm for nuclei segmentation in the Kaggle Data Science Bowl 2018, enabling precise identification of cell nuclei in biomedical images. Achieved an Intersection over Union (IoU) score of 0.503."
+
+  - title: Operating System Controller Using Hand Gestures 
+    link: "https://github.com/dek8v5/Capstone2_operating_system_controller_using_hand_gestures"
+    tagline: "Developed an application to control operating system with Leap Motion 3D Camera and decision tree algorithm."
+
+publications:
+  title: Publications
+  intro: |
+    Published Paper
+  papers:
+  - title: "<em>CorNet</em>: unsupervised deep homography estimation for agricultural aerial imagery"
+    doi: "https://doi.org/10.1007/978-3-030-65414-6_28"
+    authors: "Kharismawati, D. E., Akbarpour, H. A., Aktar, R., Bunyak, F., Palaniappan, K., and Kazic, T. "
+    year: "2020"
+    publisher: "In <em>16th European Conference on Computer Vision 2020 (ECCV2020)</em>, eds. V. Ferrari, B. Fisher, C. Schmid, and E. Trucco"
+    page: "402–419"
+
+
+  - title: "Robust mosaicking of maize fields from aerial imagery"
+    doi: "https://doi.org/10.1002/aps3.11387"
+    authors: "Aktar, R., Kharismawati, D. E., Palaniappan, K., Aliakbarpour, H., Bunyak, F., Stapleton, A. E., Kazic, T. "
+    year: "2020"
+    publisher: "<em>Appl. Plant Sci</em>"
+    page: "<em>8</em>, e11387"
+
+
+  - title: "<em>MaiZaic</em>: a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields"
+    doi: "https://doi.org/10.1101/2024.12.31.630534"
+    authors: "Kharismawati, D. E., Kazic, T. "
+    year: "2025"
+    publisher: "Submitted to <em>The Plant Phenome Journal. BioRxiv</em>"
+    page: "1-17"
+    
+skills:
+  title: Technical Skills 
+
+  toolset:
+  - name: Programming Languages
+    list: Python, MATLAB, Java, C, C++, JavaFXML
+
+  - name: Libraries
+    list: Open3D, NumPy, SciPy, OpenCV, Matplotlib, Pandas
+
+  - name: Frameworks
+    list: PyTorch, TensorFlow, Keras, Scikit-Learn
+
+  - name: Web Technologies
+    list: PHP, HTML, CSS, Jekyll
+
+  - name: Databases
+    list: MySQL, MongoDB
+
+  - name: Version Control
+    list: GitHub
+
+  - name: Cloud Computing
+    list: Google Cloud, Azure, AWS
+    
+  - name: High Performance Computing (HPC)
+    list: Mizzou's Lewis, Mizzou's Hellbender, and NRP’s Nautilus
+    
+  - name: Operating Systems
+    list: Linux, MacOS
+    
+  - name: Typesetting/Markup Languages
+    list: LaTeX, Org mode
+    
+
