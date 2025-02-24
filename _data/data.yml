@@ -179,7 +179,6 @@ publications:
     page: "1-17"
     
   - title: "<em>Pointillist Maize</em>: 3D Reconstruction of Field Plants from Aerial Video"
-    doi: ""
     authors: "Kharismawati, D. E., Kazic, T. "
     year: "2025"
     publisher: "Submitted to <em>Remote Sens.</em>"
@@ -203,12 +202,12 @@ publications:
     year: "2025"
     publisher: "<em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.</em>"
 
-  - title: "Maize 3D Point Clouds Dataset."
+  - title: "Maize 3D Point Clouds Dataset"
     authors: "Kharismawati, D. E., Kazic, T. "
     year: "2025"
     publisher: "<em>Agronomy.</em>"
 
-  - title: "Seedling Maize Detection Dataset. "
+  - title: "Seedling Maize Detection Dataset "
     authors: "Kharismawati, D. E., Kazic, T. "
     year: "2025"
     publisher: "<em>Agronomy.</em>"
