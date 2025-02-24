@@ -168,7 +168,9 @@ publications:
     publisher: "<em>Appl. Plant Sci</em>"
     page: "<em>8</em>, e11387"
 
-
+  intro2: |
+    Under Review
+  papers2:
   - title: "<em>MaiZaic</em>: a robust end-to-end pipeline for mosaicking freely flown aerial video of agricultural fields"
     doi: "https://doi.org/10.1101/2024.12.31.630534"
     authors: "Kharismawati, D. E., Kazic, T. "
@@ -176,6 +178,41 @@ publications:
     publisher: "Submitted to <em>The Plant Phenome Journal. BioRxiv</em>"
     page: "1-17"
     
+  - title: "<em>Pointillist Maize</em>: 3D Reconstruction of Field Plants from Aerial Video"
+    doi: ""
+    authors: "Kharismawati, D. E., Kazic, T. "
+    year: "2025"
+    publisher: "Submitted to <em>Remote Sens.</em>"
+    page: "1-20"
+
+  intro3: |
+    In Preparation
+  papers3:
+  - title: "Low Cost and Non-Invasive Maize 3D Reconstruction with SfM, NeRF, and Gaussian Splatting"
+    authors: "Kharismawati, D. E., Kazic, T. "
+    year: "2025"
+    publisher: "<em>Plant Phenomics.</em>"
+    
+  - title: "Stand-Cornter: An End-to-End Automatic Stand Count for Seedling Maize Using YOLOv9 on mosaic and raw frames"
+    authors: "Kharismawati, D. E., Kazic, T. "
+    year: "2025"
+    publisher: "<em>Plant Phenomics.</em>"
+  
+  - title: "An Unsupervised Pipeline to Mosaic Freely Flown Aerial Imagery with Optical Flow and Deep Homography Estimation"
+    authors: "Kharismawati, D. E., Kazic, T. "
+    year: "2025"
+    publisher: "<em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.</em>"
+
+  - title: "Maize 3D Point Clouds Dataset."
+    authors: "Kharismawati, D. E., Kazic, T. "
+    year: "2025"
+    publisher: "<em>Agronomy.</em>"
+
+  - title: "Seedling Maize Detection Dataset. "
+    authors: "Kharismawati, D. E., Kazic, T. "
+    year: "2025"
+    publisher: "<em>Agronomy.</em>"
+
 skills:
   title: Technical Skills 
 

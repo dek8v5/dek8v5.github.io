@@ -31,5 +31,50 @@
   </div><!--//item-->
   {% endfor %}
 
+
+  {% if publications.intro2 %}
+  <div class="intro">
+    <h4> {{ publications.intro2 | markdownify }} </h4>
+  </div><!--//intro2-->
+  {% endif %}
+
+  {% for publication in publications.papers2 %}
+  <div class="item">
+    
+      {{ publication.authors }} ({{ publication.year }}). 
+      {% if publication.doi %}
+        <a href="{{ publication.doi }}">{{ publication.title }}</a>.
+      {% else %}
+        {{ publication.title }}.
+      {% endif %}
+      {{ publication.publisher }}{% if publication.page %}, {{ publication.page }}.{% endif %}
+      {% if publication.doi %} doi:<a href="{{ publication.doi }}">{{ publication.doi }}</a>{% endif %}
+    
+  </div><!--//item-->
+  {% endfor %}
+
+
+
+  {% if publications.intro3 %}
+  <div class="intro">
+    <h4> {{ publications.intro3 | markdownify }} </h4>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for publication in publications.papers3 %}
+  <div class="item">
+    
+      {{ publication.authors }} ({{ publication.year }}). 
+      {% if publication.doi %}
+        <a href="{{ publication.doi }}">{{ publication.title }}</a>.
+      {% else %}
+        {{ publication.title }}.
+      {% endif %}
+      {{ publication.publisher }}{% if publication.page %}, {{ publication.page }}.{% endif %}
+      
+    
+  </div><!--//item-->
+  {% endfor %}
+
 </section><!--//section-->
 {% endif %}
