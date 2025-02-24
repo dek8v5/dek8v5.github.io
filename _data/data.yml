@@ -105,7 +105,7 @@ projects:
   title: Projects
   assignments:
   - title: MaiZaic
-    link: "https://github.com/dek8v5/MaiZaic"
+    link: "https://dek8v5.github.io/MaiZaic/"
     tagline: "An advanced end-to-end mosaicking algorithm for UAV aerial video, designed to significantly enhance image stitching precision and quality. It introduces five key innovations to the field: dynamic sampling leveraging optical flow, automated lens and gimbal calibration, precise homography estimation using CornetV3, sophisticated shot detection through UAV movement analysis, and a mini-mosaicking technique to minimize error accumulation. With an impressive accuracy rate of 96.5% compared to ground truth, MaiZaic outperforms traditional ASIFT methods by 8.59%, setting a new benchmark in aerial video mosaicking."
 
   - title: CorNet 
