@@ -8,12 +8,11 @@ sidebar:
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Dewi Endah Kharismawati
-  tagline: PhD Candidate
+  name: Dewi Endah Kharismawati, Ph.D
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: dek8v5@missouri.edu
+  email: dek8v5@missouri.edu | kharismawati.2@osu.edu
   phone: (573)397-8566
   citizenship:
   website: https://dek8v5.github.io
@@ -105,7 +104,7 @@ projects:
   title: Projects
   assignments:
   - title: MaiZaic
-    link: "https://dek8v5.github.io/MaiZaic/"
+    link: "https://dek8v5.github.io/DroneZaic/"
     tagline: "An advanced end-to-end mosaicking algorithm for UAV aerial video, designed to significantly enhance image stitching precision and quality. It introduces five key innovations to the field: dynamic sampling leveraging optical flow, automated lens and gimbal calibration, precise homography estimation using CornetV3, sophisticated shot detection through UAV movement analysis, and a mini-mosaicking technique to minimize error accumulation. With an impressive accuracy rate of 96.5% compared to ground truth, MaiZaic outperforms traditional ASIFT methods by 8.59%, setting a new benchmark in aerial video mosaicking."
 
   - title: CorNet 
